@@ -1,0 +1,20 @@
+# Minimal inferred dependencies for running the analysis scripts
+pandas>=1.1
+numpy>=1.19
+matplotlib>=3.3
+scipy>=1.5
+tensorflow>=2.6
+tensorflow-probability>=0.14
+astropy>=4.2
+emcee>=3.0
+pyyaml>=5.4
+mpi4py>=3.0
+mpi4py-mpi>=3.0
+corner>=2.2
+healpy>=1.15
+camb>=1.3
+
+# Development / tooling
+pre-commit>=2.20
+ruff>=0.0.279
+pytest>=7.0

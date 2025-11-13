@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "cmb-sampling-ml"
+version = "0.1.0"
+description = "Cosmology from the CMB with Advanced Sampling Techniques (MSci project)"
+authors = ["Oscar Hickman <oscar.hickman17@alumni.imperial.ac.uk>"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "C", "I", "B"]
